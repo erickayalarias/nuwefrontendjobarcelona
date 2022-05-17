@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .container {
+
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 60px;
+    // make it bigger on hover
+    
+  }
+  
+  .card {
+    flex-shrink: 0;
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    // make a transition when mouse enter
+    transition: all 0.2s ease;
+    background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // make it bigger on hover
+    &:hover {
+      transform: scale(1.1) !important;
+      cursor: pointer;
+    }
+  }
+
