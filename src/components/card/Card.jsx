@@ -32,72 +32,72 @@ const clamp = (value, clampAt) => {
 const TodowishList = [
     {
         id: 1,
-        title: "Titulo 1",
-        description: "Descripcion 1",
+        title: "Family",
+        description: "Give a gift to my family",
         image: corazon,
         tags: ["tag1", "tag2", "tag3"],
     },
     {
         id: 2,
-        title: "Titulo 2",
-        description: "Descripcion 2",
+        title: "Friends",
+        description: "Give a gift to my friends",
         image: corazonbonito,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 3,
-        title: "Titulo 3",
-        description: "Descripcion 3",
+        title: "Work",
+        description: "Give a gift to my work",
         image: corazon,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 4,
-        title: "Titulo 4",
-        description: "Descripcion 4",
+        title: "Holidays",
+        description: "Give a gift on holidays",
         image: corazonbonito,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 5,
-        title: "Titulo 5",
-        description: "Descripcion 5",
+        title: "Birthday",
+        description: "Give a gift to my birthday",
         image: corazon,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 6,
-        title: "Titulo 6",
-        description: "Descripcion 6",
+        title: "Wedding",
+        description: "Give a gift to the wedding",
         image: corazonbonito,
         tags:["tag1", "tag2", "tag3"]
 
     },
     {
         id: 7,
-        title: "Titulo 7",
-        description: "Descripcion 7",
+        title: "Baby",
+        description: "Give a gift to my baby",
         image: corazon,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 8,
-        title: "Titulo 8",
-        description: "Descripcion 8",
+        title: "Christmas",
+        description: "Give a gift in christmas",
         image: corazonbonito,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 9,
-        title: "Titulo 9",
-        description: "Descripcion 9",
+        title: "Valentine",
+        description: "Give a gift on valentine",
         image: corazon,
         tags:["tag1", "tag2", "tag3"]
     },
     {
         id: 10,
-        title: "Titulo 10",
-        description: "Descripcion 10",
+        title: "Anniversary",
+        description: "Give a gift in my anniversary",
         image: corazonbonito,
         tags:["tag1", "tag2", "tag3"]
     },
